@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Connection Lost Simulator | MC 连接丢失模拟器</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="assets/mcformat.js"></script>
+    <script src="https://static.1503dev.top/ajax/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="tip">
+        <script>
+            document.write(MCFormat.parse('鼠标悬停右侧可展开工具栏\n§7§oHover on the right to expand the toolbar'));
+        </script>
+        <div class="progress-bar"></div>
+    </div>
+    <div class="container">
+        <div class="texts"></div>
+        <div class="button">重新连接</div>
+    </div>
+    <div class="bar">
+        <button onclick="editText()">编辑文本</button>
+        <button onclick="resetText()">恢复默认</button>
+        <button onclick="oss()">开放源代码许可</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
