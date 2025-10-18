@@ -38,12 +38,13 @@ body {
     font-size: 16px;
 }
 button {
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.3);
     border: none;
     width: 128px;
     box-sizing: border-box;
     height: 32px;
     cursor: pointer;
+    font-size: 12px;
 }
 button:hover {
     border: 2px solid white;
